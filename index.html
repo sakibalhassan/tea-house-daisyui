@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- google font -->
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/20cb76860e.js" crossorigin="anonymous"></script>
+    <!-- font awesome -->
 
     <!-- tailwind css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -260,8 +263,55 @@
 
         <!-- event part -->
     </main>
-    <footer>
-
+    <footer class="lg:px-40 lg:py-10 bg-base-200 text-base-content">
+        <div class="flex justify-between py-24">
+            <img src="images/cup.png" alt="">
+            <p>
+                <span>Ready to get strated?</span>
+                <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#F00] border-none">Get
+                    Started</button>
+            </p>
+        </div>
+        <div class="footer p-10">
+            <nav>
+                <header class="footer-title">Services</header>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Legal</header>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <header class="footer-title">Newsletter</header>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="email address"
+                            class=" bg-transparent border-black border-b-2 outline-none py-4 " />
+                        <button class="btn btn-primary border-none bg-gradient-to-r from-[#FF8938] to-[#F00]">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <aside class="mt-10 text-center">
+            <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </aside>
     </footer>
 </body>
 
